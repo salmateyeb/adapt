@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
 #image{
     background-image: url(./images/back.jpeg);
     background-repeat: no-repeat;
@@ -72,7 +73,7 @@ nav li a:hover {
 }
 #about {
     height: 750px;
-    background-color: black;
+    background-color: rgba(205, 126, 57, 0.641);
     
 
 }
@@ -233,18 +234,20 @@ nav li a:hover {
     border: none;
     cursor: pointer;
     border-radius: 50px;
-    width: 5OPX;
+    width: 100PX;
+    
+  
   }
 
   
   input[type=submit]:hover {
-    background-color: #681111;
+    background-color:  rgba(205, 126, 57, 0.641);
   }
   
  
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: seashell;
     padding: 10px;
   }
   
@@ -270,6 +273,39 @@ nav li a:hover {
       margin-top: 0;
     }
 }
+#Contact{
+  padding-top: 30px;
+}
+#Contact div img{
+  width: 30px;
+  height: 30px;
+  flex-direction: column;
+  
+}
+#Contact div h1{
+  font-size: 60px;
+  font-family: "Oleo";
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  padding-top:  200PX;
+  padding-left: 20px;
+  text-shadow: 2px 2px 5px  rgba(205, 126, 57, 0.641);
+}
+.social {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.social:hover {
+  opacity: 0.7;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
 
-        
       
